@@ -45,4 +45,9 @@ print("hello Pete")
 #
 # Now I'll go edit that "Hello World" fragment above and go see what the diff looks like 
 
+# ## Nice Too
+#
+# While reading up on this, I came across a couple of packages, 'Black' and 'isort' which force formatting of python code in a specific style and sorting the import statements. Both are aimed at reducing diff sizes.
+#
+
 
