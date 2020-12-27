@@ -19,7 +19,7 @@
 #
 # I'm going to pair this notebook with a `light script`.
 
-print("hello world")
+print("hello Pete")
 
 # When I used the 'pair' command, another file appeared in the directory with a `.py` extension instead.  I can see the input cell information in that file, with the markdown cells hidden behind '#'s.  The python fragments are exposed, so the `.py` file can be conveniently run.
 
@@ -42,3 +42,7 @@ print("hello world")
 # ### The Git Bits
 #
 # Off to my atom editor in the `~/github` tree to create the new repository and checkin the file.
+#
+# Now I'll go edit that "Hello World" fragment above and go see what the diff looks like 
+
+
