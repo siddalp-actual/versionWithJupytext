@@ -50,4 +50,12 @@ print("hello Pete")
 # While reading up on this, I came across a couple of packages, 'Black' and 'isort' which force formatting of python code in a specific style and sorting the import statements. Both are aimed at reducing diff sizes.
 #
 
+# ## Uh Oh, Found a Problem
+#
+# When I came to reload the next day, it appears that jupytext read the .py file's modification time from the symbolic link and not what that pointed to.  It was therefore a few hours older (and static) compared with the modification time of the .ipynb file.
+#
+# I looked at where it gets this info from, but the jupytext code has subclassed a jupyter notebook file object.  Which pushes any code change into jupyter rather than jupytext.
+#
+# So, I've changed the layout to make the notebook project folder a symbolic link into the github tree, and of course, I'll have to add a .gitignore for the .ipynb.
+
 
