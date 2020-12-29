@@ -58,4 +58,21 @@ print("hello Pete")
 #
 # So, I've changed the layout to make the notebook project folder a symbolic link into the github tree, and of course, I'll have to add a .gitignore for the .ipynb.
 
+# ## Comment Out
+#
+# The following cell has meta data which is supposed to comment it out in either the .ipynb or the .py version.
+#
+# I can show that by adding
+# ```
+# { "active" : "ipynb" }
+# ```
+# to the cell metadata (see advanced Tools in Tools side tab).   
+# Then the .py version of the file has the `print()` function all commented out with #.  However, I cannot make the cell unexecutable (<shift><enter>) with "active":"py"
+
+# + active="py" inactive="ipynb"
+print("'comment out' with tag")
+# -
+
+
+
 
